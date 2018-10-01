@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="resources/css/gallery.css" rel="stylesheet">
+    <link href="resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="gallery1" class="container gallery-container">
+        <h1>Imagenes sala 1</h1>
+        <p class="page-description text-center">Sala 1</p>
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="resources/images/sala1/1.jpg">
+                        <img src="resources/images/sala1/1.jpg" alt="Sala 1">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="resources/images/sala1/2.jpg">
+                        <img src="resources/images/sala1/2.jpg" alt="Sala 2">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="resources/images/sala1/3.jpg">
+                        <img src="resources/images/sala1/3.jpg" alt="Sala 3">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="resources/images/sala1/4.jpg">
+                        <img src="resources/images/sala1/4.jpg" alt="Sala 4">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="resources/vendor/jquery/jquery.min.js"></script>
+    <script src="resources/vendor/jquery/jgallery.js"></script>
+    <script src="resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+  </body>
+</html>

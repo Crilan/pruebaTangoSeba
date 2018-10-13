@@ -6,7 +6,9 @@ section.pricing {
   background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+.card-body{
+  padding: 0.5rem;
+}
 .pricing .card {
   border-radius: 1rem;
   transition: all 0.2s;
@@ -26,7 +28,7 @@ section.pricing {
 }
 
 .pricing .card-price {
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin: 0;
 }
 
@@ -44,7 +46,6 @@ section.pricing {
 
 .pricing .btn {
   font-size: 80%;
-  border-radius: 5rem;
   letter-spacing: .1rem;
   font-weight: bold;
   padding: 1rem;
